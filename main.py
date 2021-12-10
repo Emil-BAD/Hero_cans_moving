@@ -18,8 +18,8 @@ def load_image(name, colorkey=None):
 
 
 class Creature(pygame.sprite.Sprite):
-    creature = load_image("E:/PytonProject/data/creature.png")
-    creature2 = load_image("E:/PytonProject/data/creature2.png")
+    creature = load_image("../data/creature.png")
+    creature2 = load_image("../data/creature2.png")
 
     def __init__(self, width, height, group):
         # НЕОБХОДИМО вызвать конструктор родительского класса Sprite.
